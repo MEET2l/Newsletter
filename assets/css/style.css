@@ -35,8 +35,9 @@ body, html {
   gap: 10px;
 }
 .logo img {
-  width: 60px;
+  width: 25%;
   height: auto;
+  border-radius: 5px;
 }
 .nav a {
     color: #565555;
@@ -716,3 +717,4 @@ body, html {
   box-shadow:0 6px 20px rgba(0,0,0,0.25);
 
 }
+
