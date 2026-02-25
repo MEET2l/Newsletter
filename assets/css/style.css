@@ -506,6 +506,7 @@ body, html {
   color: #fff;
   font-size: 18px;
   transition: 0.3s;
+  text-decoration: none;
 }
 
 /* hover colors */
@@ -713,4 +714,5 @@ body, html {
 /* header shadow */
 .header-shadow{
   box-shadow:0 6px 20px rgba(0,0,0,0.25);
+
 }
