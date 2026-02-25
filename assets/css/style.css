@@ -32,7 +32,6 @@ body, html {
 .logo {
   display: flex;
   align-items: center;
-  gap: 10px;
 }
 .logo img {
   width: 25%;
@@ -717,4 +716,5 @@ body, html {
   box-shadow:0 6px 20px rgba(0,0,0,0.25);
 
 }
+
 
