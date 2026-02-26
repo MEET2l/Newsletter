@@ -15,20 +15,21 @@
   <div class="container header-flex">
     <div class="logo">
       <img src="assets/images/logo/logo.png" alt="logo">
+
     </div>
 
     <nav class="nav">
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Gallery</a>
-      <a href="#">Contact</a>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
     </nav>
   </div>
 </header>
 
 
 <!-- HERO -->
-<section class="hero">
+<section id="home" class="hero">
   <div class="hero-content">
     <h1>Welcome to Our Newsletter</h1>
     <p class="tagline">Stay updated with company news & events</p>
@@ -50,13 +51,13 @@
 </section>
 
 <!-- ABOUT -->
-<section class="about-section">
+<section id="about" class="about-section">
   <div class="container about-flex">
 
     <!-- LEFT IMAGE -->
     <div class="about-img">
         <div class="about-shape">
-            <img src="assets/images/About Our Company.jpg" alt="logo">
+            <img src="assets/images/about.jpeg" alt="logo">
         </div>
     </div>
 
@@ -81,7 +82,7 @@
 </section>
 
 <!-- GALLERY -->
-<section class="gallery section">
+<section id="gallery" class="gallery section">
   <div class="container">
     <h2 class="gallery-title">Our Workplace & Culture</h2>
     <p class="gallery-subtitle">
@@ -91,32 +92,32 @@
     <div class="gallery-scroll">
 
       <div class="gallery-item">
-        <img src="assets/images/Office Workspace.jpg">
+        <img src="assets/images/Office Workspace.png">
         <span>Office Workspace</span>
       </div>
 
       <div class="gallery-item">
-        <img src="assets/images/Team Meeting.jpg">
+        <img src="assets/images/Team Meeting.jpeg">
         <span>Team Meeting</span>
       </div>
 
       <div class="gallery-item">
-        <img src="assets/images/Company Event.jpg">
+        <img src="assets/images/Company Event.png">
         <span>Company Event</span>
       </div>
 
       <div class="gallery-item">
-        <img src="assets/images/Creative Space.jpg">
+        <img src="assets/images/Creative Space.jpeg">
         <span>Creative Space</span>
       </div>
 
       <div class="gallery-item">
-        <img src="assets/images/Our Team.jpg">
+        <img src="assets/images/Our Team.jpeg">
         <span>Our Team</span>
       </div>
 
       <div class="gallery-item">
-        <img src="assets/images/Celebration.jpg">
+        <img src="assets/images/Celebration.jpeg">
         <span>Celebration</span>
       </div>
 
@@ -126,7 +127,7 @@
 
 
 <!-- BENEFITS -->
-<section class="benefits section">
+<section id="benefits" class="benefits section">
   <div class="container">
     <h2 class="benefits-title">Why Subscribe?</h2>
     <p class="benefits-sub">
@@ -165,19 +166,13 @@
 </section>
 
 <!-- MESSAGE -->
-<section class="message">
+<section id="contact" class="message">
   <div class="container message-content">
     <h2>Stay Connected With Us</h2>
     <p>
       Never miss important updates, exclusive offers,
       and special announcements from our company.
     </p>
-
-    <!-- email box -->
-    <div class="subscribe-box">
-      <input type="email" placeholder="Enter your email address">
-      <button>Subscribe</button>
-    </div>
 
   </div>
 
@@ -310,6 +305,4 @@ window.addEventListener("scroll",()=>{
 </script>
     
 </body>
-
 </html>
-
