@@ -5,9 +5,143 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Newsletter Subscribe</title>
 
-    <link rel="stylesheet" href="./assets/css/style.css">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f0f0;
+}
+
+/* HEADER SECTION */
+.header {
+  background: linear-gradient(135deg,#ffcc00,#ff7a00,#ff3d00);
+  color: #000000;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 25%;
+  height: auto;
+  border-radius: 5px;
+}
+.nav a {
+    color: #565555;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.nav a:hover {
+    color: #000;
+
+}
+
+/* HERO SECTION */
+.hero{
+    margin: 20px;
+    border-radius: 5px;
+  position:relative;
+  height:520px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:#fff;
+  overflow:hidden;
+
+  background: linear-gradient(135deg,#ffcc00,#ff7a00,#ff3d00);
+}
+
+/* glow overlay */
+.hero::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: radial-gradient(circle at top,#ffffff33,transparent 60%);
+}
+
+/* content */
+.hero-content{
+  position:relative;
+  z-index:2;
+  max-width:800px;
+}
+
+.hero h1{
+  font-size:52px;
+  font-weight:700;
+  margin-bottom:15px;
+}
+
+.tagline{
+  font-size:22px;
+  margin-bottom:10px;
+}
+
+.subtext{
+  font-size:16px;
+  margin-bottom:30px;
+  line-height:1.6;
+}
+
+/* buttons */
+.hero-buttons a{
+  text-decoration:none;
+  padding:14px 28px;
+  border-radius:8px;
+  font-weight:600;
+  margin:8px;
+  display:inline-block;
+  transition:0.3s;
+}
+
+.btn-primary{
+  background:#000;
+  color:#fff;
+}
+
+.btn-primary:hover{
+  background:#222;
+  transform:translateY(-3px);
+}
+
+.btn-outline{
+  border:2px solid #fff;
+  color:#fff;
+}
+
+.btn-outline:hover{
+  background:#fff;
+  color:#000;
+  transform:translateY(-3px);
+}
+
+    
+    </style>
 </head>
 <body>
     <!-- HEADER -->
@@ -306,4 +440,5 @@ window.addEventListener("scroll",()=>{
     
 </body>
 </html>
+
 
